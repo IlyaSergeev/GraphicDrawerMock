@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA02A0AD14654B8200467509 /* GDGraphicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA02A0AB14654B8200467509 /* GDGraphicsViewController.m */; };
+		CA02A0B214654DAF00467509 /* GDDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA02A0B114654DAF00467509 /* GDDefaultModel.m */; };
 		CA95615C1465462200B38D83 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA95615B1465462200B38D83 /* Cocoa.framework */; };
 		CA9561661465462200B38D83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA9561641465462200B38D83 /* InfoPlist.strings */; };
 		CA9561681465462200B38D83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9561671465462200B38D83 /* main.m */; };
@@ -17,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA02A0AA14654B8200467509 /* GDGraphicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDGraphicsViewController.h; sourceTree = "<group>"; };
+		CA02A0AB14654B8200467509 /* GDGraphicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDGraphicsViewController.m; sourceTree = "<group>"; };
+		CA02A0AF14654D3600467509 /* GDGraphicsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDGraphicsModel.h; sourceTree = "<group>"; };
+		CA02A0B014654DAF00467509 /* GDDefaultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDDefaultModel.h; sourceTree = "<group>"; };
+		CA02A0B114654DAF00467509 /* GDDefaultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDDefaultModel.m; sourceTree = "<group>"; };
 		CA9561571465462200B38D83 /* GraphicsDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphicsDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA95615B1465462200B38D83 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CA95615E1465462200B38D83 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -49,6 +56,11 @@
 		CA95614C1465462200B38D83 = {
 			isa = PBXGroup;
 			children = (
+				CA02A0AA14654B8200467509 /* GDGraphicsViewController.h */,
+				CA02A0AB14654B8200467509 /* GDGraphicsViewController.m */,
+				CA02A0B014654DAF00467509 /* GDDefaultModel.h */,
+				CA02A0B114654DAF00467509 /* GDDefaultModel.m */,
+				CA02A0AF14654D3600467509 /* GDGraphicsModel.h */,
 				CA95617A1465475200B38D83 /* GDGraphicView.h */,
 				CA95617B1465475200B38D83 /* GDGraphicView.m */,
 				CA9561611465462200B38D83 /* GraphicsDrawer */,
@@ -174,6 +186,8 @@
 				CA9561681465462200B38D83 /* main.m in Sources */,
 				CA95616F1465462200B38D83 /* GDAppDelegate.m in Sources */,
 				CA95617C1465475200B38D83 /* GDGraphicView.m in Sources */,
+				CA02A0AD14654B8200467509 /* GDGraphicsViewController.m in Sources */,
+				CA02A0B214654DAF00467509 /* GDDefaultModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

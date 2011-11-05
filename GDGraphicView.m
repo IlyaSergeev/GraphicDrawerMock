@@ -24,26 +24,26 @@
 - (NSBezierPath*)besierPath:(NSRect)bounds
 {
 	NSUInteger loggerCount = self.values.count;
-	if (loggerCount <= 0) return nil;
+	if (loggerCount <= 1) return nil;
 	
 	NSBezierPath* path = [NSBezierPath bezierPath];
 	NSPoint nextPoint = bounds.origin;	
 	[path moveToPoint: nextPoint];
 	
-	double dx = bounds.size.width / (double)loggerCount;
+	double dx = bounds.size.width / (double)(loggerCount-1);
 	double maxY = bounds.size.height;
 	double startY = bounds.origin.y;
 	
 	for (int i = 0; i < loggerCount; ++i)
 	{
-		nextPoint.x += dx;
 		nextPoint.y = startY + maxY * [[self.values objectAtIndex:i] floatValue];		
 		[path lineToPoint:nextPoint];		
+		nextPoint.x += dx;
 	}
 	return path;
 }
 
--(void)drawInRect:(NSRect)dirtyRect
+- (void)drawRect:(NSRect)dirtyRect;
 {
 	[[NSColor greenColor] set];
 	[NSBezierPath setDefaultLineWidth:1];
