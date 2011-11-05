@@ -16,8 +16,8 @@
 }
 
 - (NSArray *)doCalculations
-{
-	//insert your logic here!!!
+{	
+	//MOCK!!! Delete this and insert your own logic.
 	return [NSArray arrayWithObjects:
 			[self nextDouble], 
 			[self nextDouble], 

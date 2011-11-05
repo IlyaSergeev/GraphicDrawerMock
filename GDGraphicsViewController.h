@@ -16,4 +16,8 @@
 @property (nonatomic, retain) IBOutlet GDGraphicView* graphicView;
 @property (nonatomic, retain) IBOutlet id<GDGraphicsModel> graphicsModel;
 
+@property (nonatomic, assign) NSColor* color;
+
+- (IBAction)refreshGraphic:(id)sender;
+
 @end

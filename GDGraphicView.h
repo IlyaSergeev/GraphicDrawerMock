@@ -11,5 +11,6 @@
 @interface GDGraphicView : NSView
 
 @property (retain) NSArray* values;
+@property (retain) NSColor* color;
 
 @end

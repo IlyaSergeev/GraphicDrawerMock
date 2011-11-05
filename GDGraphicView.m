@@ -11,10 +11,13 @@
 @implementation GDGraphicView
 
 @synthesize values = _values;
+@synthesize color = _color;
 
 - (void)dealloc
 {
 	[_values release];
+	[_color release];
+	
 	[super dealloc];
 }
 
@@ -45,7 +48,7 @@
 
 - (void)drawRect:(NSRect)dirtyRect;
 {
-	[[NSColor greenColor] set];
+	[self.color set];
 	[NSBezierPath setDefaultLineWidth:1];
 	
 	NSBezierPath* path = [self besierPath:dirtyRect];
