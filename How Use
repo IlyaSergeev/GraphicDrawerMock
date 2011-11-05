@@ -1,0 +1,12 @@
+Simple way
+
+1) open GDDefaultModel
+2) Insert you logic in "doCalculations" method. This method must return array of NSNumber values for 0 to 1.
+
+
+
+
+По русски:
+
+1) открываем GDDefaultModel
+2) Вставляем вычисления в метод "doCalculations". Этот метод должен возвращать NSArray состоящий из значений NSNumber от 0 до 1
