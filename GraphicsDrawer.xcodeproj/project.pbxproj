@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA95615C1465462200B38D83 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA95615B1465462200B38D83 /* Cocoa.framework */; };
+		CA9561661465462200B38D83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA9561641465462200B38D83 /* InfoPlist.strings */; };
+		CA9561681465462200B38D83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9561671465462200B38D83 /* main.m */; };
+		CA95616C1465462200B38D83 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CA95616A1465462200B38D83 /* Credits.rtf */; };
+		CA95616F1465462200B38D83 /* GDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA95616E1465462200B38D83 /* GDAppDelegate.m */; };
+		CA9561721465462300B38D83 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA9561701465462300B38D83 /* MainMenu.xib */; };
+		CA95617C1465475200B38D83 /* GDGraphicView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA95617B1465475200B38D83 /* GDGraphicView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA9561571465462200B38D83 /* GraphicsDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphicsDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA95615B1465462200B38D83 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CA95615E1465462200B38D83 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CA95615F1465462200B38D83 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CA9561601465462200B38D83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA9561631465462200B38D83 /* GraphicsDrawer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GraphicsDrawer-Info.plist"; sourceTree = "<group>"; };
+		CA9561651465462200B38D83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA9561671465462200B38D83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA9561691465462200B38D83 /* GraphicsDrawer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GraphicsDrawer-Prefix.pch"; sourceTree = "<group>"; };
+		CA95616B1465462200B38D83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CA95616D1465462200B38D83 /* GDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDAppDelegate.h; sourceTree = "<group>"; };
+		CA95616E1465462200B38D83 /* GDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDAppDelegate.m; sourceTree = "<group>"; };
+		CA9561711465462300B38D83 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CA95617A1465475200B38D83 /* GDGraphicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDGraphicView.h; sourceTree = "<group>"; };
+		CA95617B1465475200B38D83 /* GDGraphicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDGraphicView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA9561541465462200B38D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA95615C1465462200B38D83 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA95614C1465462200B38D83 = {
+			isa = PBXGroup;
+			children = (
+				CA95617A1465475200B38D83 /* GDGraphicView.h */,
+				CA95617B1465475200B38D83 /* GDGraphicView.m */,
+				CA9561611465462200B38D83 /* GraphicsDrawer */,
+				CA95615A1465462200B38D83 /* Frameworks */,
+				CA9561581465462200B38D83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA9561581465462200B38D83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA9561571465462200B38D83 /* GraphicsDrawer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA95615A1465462200B38D83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA95615B1465462200B38D83 /* Cocoa.framework */,
+				CA95615D1465462200B38D83 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA95615D1465462200B38D83 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA95615E1465462200B38D83 /* AppKit.framework */,
+				CA95615F1465462200B38D83 /* CoreData.framework */,
+				CA9561601465462200B38D83 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CA9561611465462200B38D83 /* GraphicsDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				CA95616D1465462200B38D83 /* GDAppDelegate.h */,
+				CA95616E1465462200B38D83 /* GDAppDelegate.m */,
+				CA9561701465462300B38D83 /* MainMenu.xib */,
+				CA9561621465462200B38D83 /* Supporting Files */,
+			);
+			path = GraphicsDrawer;
+			sourceTree = "<group>";
+		};
+		CA9561621465462200B38D83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA9561631465462200B38D83 /* GraphicsDrawer-Info.plist */,
+				CA9561641465462200B38D83 /* InfoPlist.strings */,
+				CA9561671465462200B38D83 /* main.m */,
+				CA9561691465462200B38D83 /* GraphicsDrawer-Prefix.pch */,
+				CA95616A1465462200B38D83 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA9561561465462200B38D83 /* GraphicsDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9561751465462300B38D83 /* Build configuration list for PBXNativeTarget "GraphicsDrawer" */;
+			buildPhases = (
+				CA9561531465462200B38D83 /* Sources */,
+				CA9561541465462200B38D83 /* Frameworks */,
+				CA9561551465462200B38D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphicsDrawer;
+			productName = GraphicsDrawer;
+			productReference = CA9561571465462200B38D83 /* GraphicsDrawer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA95614E1465462200B38D83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Ilya Sergeev Home";
+			};
+			buildConfigurationList = CA9561511465462200B38D83 /* Build configuration list for PBXProject "GraphicsDrawer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA95614C1465462200B38D83;
+			productRefGroup = CA9561581465462200B38D83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA9561561465462200B38D83 /* GraphicsDrawer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA9561551465462200B38D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9561661465462200B38D83 /* InfoPlist.strings in Resources */,
+				CA95616C1465462200B38D83 /* Credits.rtf in Resources */,
+				CA9561721465462300B38D83 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA9561531465462200B38D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9561681465462200B38D83 /* main.m in Sources */,
+				CA95616F1465462200B38D83 /* GDAppDelegate.m in Sources */,
+				CA95617C1465475200B38D83 /* GDGraphicView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA9561641465462200B38D83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA9561651465462200B38D83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA95616A1465462200B38D83 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA95616B1465462200B38D83 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CA9561701465462300B38D83 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA9561711465462300B38D83 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA9561731465462300B38D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CA9561741465462300B38D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CA9561761465462300B38D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GraphicsDrawer/GraphicsDrawer-Prefix.pch";
+				INFOPLIST_FILE = "GraphicsDrawer/GraphicsDrawer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA9561771465462300B38D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GraphicsDrawer/GraphicsDrawer-Prefix.pch";
+				INFOPLIST_FILE = "GraphicsDrawer/GraphicsDrawer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA9561511465462200B38D83 /* Build configuration list for PBXProject "GraphicsDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9561731465462300B38D83 /* Debug */,
+				CA9561741465462300B38D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA9561751465462300B38D83 /* Build configuration list for PBXNativeTarget "GraphicsDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9561761465462300B38D83 /* Debug */,
+				CA9561771465462300B38D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA95614E1465462200B38D83 /* Project object */;
+}
